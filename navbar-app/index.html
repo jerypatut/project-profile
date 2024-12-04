@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./logo.svg" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="/">home</a>
+          </li>
+          <li>
+            <a href="about">about</a>
+          </li>
+          <li>
+            <a href="projects">projects</a>
+          </li>
+          <li>
+            <a href="contact">contact</a>
+          </li>
+        </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-sketch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="login-section">
+        <h2>Login</h2>
+        <form class="login-form">
+          <div class="form-control">
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" placeholder="Enter your email" />
+          </div>
+          <div class="form-control">
+            <label for="login-password">Password:</label>
+            <input
+              type="password"
+              id="login-password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </section>
+  
+      <!-- Registration Section -->
+      <section class="register-section">
+        <h2>Register</h2>
+        <form class="register-form">
+          <div class="form-control">
+            <label for="register-name">Name:</label>
+            <input type="text" id="register-name" placeholder="Enter your name" />
+          </div>
+          <div class="form-control">
+            <label for="register-email">Email:</label>
+            <input
+              type="email"
+              id="register-email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-control">
+            <label for="register-password">Password:</label>
+            <input
+              type="password"
+              id="register-password"
+              placeholder="Create a password"
+            />
+          </div>
+          <div class="form-control">
+            <label for="register-confirm-password">Confirm Password:</label>
+            <input
+              type="password"
+              id="register-confirm-password"
+              placeholder="Confirm your password"
+            />
+          </div>
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </section>
+  
+    <!-- javascript -->
+    <script src="./browser-app.js"></script>
+  </body>
+</html>

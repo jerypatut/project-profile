@@ -1,0 +1,13 @@
+/////
+tutorial
+1. copy link from my github.
+2. open your terminal in cmd use command prompt
+3.cd your terminal
+4. running "git clone + link github"
+5.can cek your location after instal my link in your terminal.
+6.afterthat open your text editor and open my folder in it.
+7.npm install express in your terminal in editor text.
+8.you can cek link bellow your teminal and can follow link on terminal bellow.
+9.seee your running app and you can cek and change with your profile
+
+thankksssss////################################

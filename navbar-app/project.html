@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./project.css">
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./logo.svg" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="/">home</a>
+          </li>
+          <li>
+            <a href="about">about</a>
+          </li>
+          <li>
+            <a href="projects">projects</a>
+          </li>
+          <li>
+            <a href="contact">contact</a>
+          </li>
+        </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-sketch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <style>
+        .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    table th, table td {
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    table th {
+      background-color: #333;
+      color: #fff;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+    </style>
+    <div class="container">
+        <h1>Projects Overview</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Project Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Profile Website</td>
+              <td>Created a profile website using <strong>Node.js</strong> and <strong>React.js</strong>. Demonstrates dynamic and interactive web applications.</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Contact Management System</td>
+              <td>
+                Comprehensive contact management system with:
+                <ul>
+                  <li>Add new contacts</li>
+                  <li>Update existing contacts</li>
+                  <li>Delete contacts</li>
+                </ul>
+                Showcases CRUD operations and data handling.
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Redirect with HTTP</td>
+              <td>Mastered HTTP redirects to ensure smooth user navigation via server-side request handling.</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>RESTful API</td>
+              <td>API for web and mobile applications.</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Authentication System</td>
+              <td>Login and registration system using JWT.</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Real-Time Chat</td>
+              <td>Chat application with WebSocket and Socket.IO.</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Admin Dashboard</td>
+              <td>CRUD data management using Express.js and MongoDB.</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>E-commerce Backend</td>
+              <td>Payment system and product management.</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Microservices</td>
+              <td>Service-oriented architecture for complex applications.</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Task Scheduler</td>
+              <td>Automated task scheduling applications.</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>Message Queue</td>
+              <td>Message queue system using RabbitMQ.</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>Static File Server</td>
+              <td>Serve HTML, CSS, and JavaScript files.</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>GraphQL API</td>
+              <td>Interactive API using GraphQL.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>All projects are built using Node.js, modern JavaScript, and supporting technologies.</p>
+      </div>
+      <script src="./browser-app.js"></script>
+    </body>
+  </html>

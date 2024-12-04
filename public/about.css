@@ -1,0 +1,36 @@
+
+
+.about-section {
+  text-align: center;
+  padding: 2rem;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.about-photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-tech img {
+  width: 50px;
+  margin: 0 0.5rem;
+}
+
+.about-description {
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-size: 1.2rem;
+}
